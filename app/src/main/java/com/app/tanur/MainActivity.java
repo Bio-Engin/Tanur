@@ -46,24 +46,25 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if (item.getItemId()==R.id.navigation_progressbar) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                    transaction.replace(R.id.frame, new CalenderFragment()).commit();
+                    transaction.replace(R.id.frame, new ProgressbarFragment()).commit();
                 }
                 else if (item.getItemId()==R.id.navigation_seekbar) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                    transaction.replace(R.id.frame, new CalenderFragment()).commit();
+                    transaction.replace(R.id.frame, new SeekbarFragment()).commit();
                 }
                 else if (item.getItemId()==R.id.navigation_rate) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                    transaction.replace(R.id.frame, new CalenderFragment()).commit();
+                    transaction.replace(R.id.frame, new RateFragment()).commit();
                 }
                 else if (item.getItemId()==R.id.navigation_search) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                    transaction.replace(R.id.frame, new CalenderFragment()).commit();
+                    transaction.replace(R.id.frame, new SearchFragment()).commit();
                 }
-                else if (item.getItemId()==R.id.home) {
-                    FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                    transaction.replace(R.id.frame, new CalenderFragment()).commit();
-                }
+//                else if (item.getItemId()==R.id.home) {
+//                    FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+//                    transaction.replace(R.id.frame, new CalenderFragment()).commit();
+//                }
+
                 return false;
             }
         });
