@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Tanur</string>
+
+    <string-array name="title">
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+    </string-array>
+
+    <string-array name="date">
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+        <item>something</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

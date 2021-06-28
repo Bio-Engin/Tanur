@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="home" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_home"
+        android:title="search" />
+    <item
+        android:id="@+id/navigation_rate"
+        android:icon="@drawable/ic_home"
+        android:title="rate" />
+    <item
+        android:id="@+id/navigation_seekbar"
+        android:icon="@drawable/ic_home"
+        android:title="seekbar" />
+    <item
+        android:id="@+id/navigation_progressbar"
+        android:icon="@drawable/ic_home"
+        android:title="progressbar" />
+    <item
+        android:id="@+id/navigation_calender"
+        android:icon="@drawable/ic_home"
+        android:title="calender" />
+</menu>
