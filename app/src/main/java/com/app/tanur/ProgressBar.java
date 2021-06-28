@@ -29,14 +29,7 @@ public class ProgressBar extends AppCompatActivity {
         final int[] progress = {0};
 
 
-        btn_back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ProgressBar.this, MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
+
 
         btn_plus.setOnClickListener(new View.OnClickListener() {
             @Override
