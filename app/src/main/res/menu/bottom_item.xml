@@ -6,23 +6,23 @@
 <!--        android:icon="@drawable/ic_home"-->
 <!--        android:title="home" />-->
     <item
-        android:id="@+id/navigation_search"
-        android:icon="@drawable/ic_home"
-        android:title="search" />
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="من" />
     <item
-        android:id="@+id/navigation_rate"
-        android:icon="@drawable/ic_home"
-        android:title="rate" />
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chat"
+        android:title="چت" />
     <item
-        android:id="@+id/navigation_seekbar"
-        android:icon="@drawable/ic_home"
-        android:title="seekbar" />
+        android:id="@+id/navigation_post"
+        android:icon="@drawable/plus"
+        android:title="آکهی" />
     <item
-        android:id="@+id/navigation_progressbar"
-        android:icon="@drawable/ic_home"
-        android:title="progressbar" />
+        android:id="@+id/navigation_categories"
+        android:icon="@drawable/menu"
+        android:title="دسته ها" />
     <item
-        android:id="@+id/navigation_calender"
-        android:icon="@drawable/ic_home"
-        android:title="calender" />
+        android:id="@+id/navigation_items"
+        android:icon="@drawable/home"
+        android:title="خانه" />
 </menu>

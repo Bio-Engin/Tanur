@@ -40,25 +40,25 @@ public class MainActivity extends AppCompatActivity {
         bottom_navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                if (item.getItemId()==R.id.navigation_calender) {
+                if (item.getItemId()==R.id.navigation_profile) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame, new CalenderFragment()).commit();
                 }
-                else if (item.getItemId()==R.id.navigation_progressbar) {
+                else if (item.getItemId()==R.id.navigation_chat) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame, new ProgressbarFragment()).commit();
                 }
-                else if (item.getItemId()==R.id.navigation_seekbar) {
+                else if (item.getItemId()==R.id.navigation_post) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame, new SeekbarFragment()).commit();
                 }
-                else if (item.getItemId()==R.id.navigation_rate) {
+                else if (item.getItemId()==R.id.navigation_categories) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame, new RateFragment()).commit();
                 }
-                else if (item.getItemId()==R.id.navigation_search) {
+                else if (item.getItemId()==R.id.navigation_items) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                    transaction.replace(R.id.frame, new SearchFragment()).commit();
+                    transaction.replace(R.id.frame, new ItemsFragment()).commit();
                 }
 //                else if (item.getItemId()==R.id.home) {
 //                    FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
