@@ -43,14 +43,17 @@ public class MainActivity extends AppCompatActivity {
                 if (item.getItemId()==R.id.navigation_profile) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame, new CalenderFragment()).commit();
+                    return true;
                 }
                 else if (item.getItemId()==R.id.navigation_chat) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame, new ProgressbarFragment()).commit();
+                    return true;
                 }
                 else if (item.getItemId()==R.id.navigation_post) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                     transaction.replace(R.id.frame, new SeekbarFragment()).commit();
+                    return true;
                 }
                 else if (item.getItemId()==R.id.navigation_categories) {
                     FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
